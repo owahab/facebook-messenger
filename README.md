@@ -2,4 +2,4 @@
 
 Unofficial Facebook Messenger
 
-Check releases to download the latest version
+Download [latest release](https://github.com/owahab/facebook-messenger/releases/latest)
