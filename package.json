@@ -1,0 +1,34 @@
+{
+  "name": "Messenger",
+  "version": "1.0.0",
+  "description": "Unofficial Facebook Messenger client",
+  "main": "electron.js",
+  "scripts": {
+    "start": "electron electron.js",
+    "prestart": "npm install",
+    "build": "electron-packager . Messenger --out=build --platform=darwin --arch=x64 --icon=icon.icns --overwrite",
+    "test": "true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owahab/messenger"
+  },
+  "keywords": [
+    "Facebook",
+    "Messenger",
+    "Unofficial"
+  ],
+  "author": "Omar Abdel-Wahab",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/owahab/messenger/issues"
+  },
+  "homepage": "https://github.com/owahab/messenger#readme",
+  "devDependencies": {
+    "electron": "^1.5.0",
+    "electron-packager": "^8.5.1"
+  },
+  "dependencies": {
+    "electron-lets-move": "0.0.4"
+  }
+}
