@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/owahab/messenger#readme",
   "devDependencies": {
-    "electron": "^1.5.0",
-    "electron-packager": "^8.5.1"
+    "electron": "^1.6.7",
+    "electron-packager": "^8.7.0"
   },
   "dependencies": {
     "electron-lets-move": "0.0.4"
